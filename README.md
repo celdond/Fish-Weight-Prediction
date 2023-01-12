@@ -11,9 +11,19 @@ the weight of a fish based on input characteristics detailed below.
 
 ## Project Description
 
-The files in this project include:
+The files in this project:
 
+- Fish.csv:             The data set to be used in the project.
+- prediction.ipynb:     A Jupyter Notebook housing the core of the code.
+- requirements.txt:     The python requirements file for local use
 
+prediction.ipynb contains the best model as well as four lesser working models for reference.
+Every model uses either Ridge or Linear Regression as decribed by the Sci-kit library.
+
+The data set includes the following species of fish: Bream, Roach, Whitefish, Parkki, Perch,
+Pike, and Smelt.  The fundamental flaw of this data set is its size - exacerbated by the variety
+of fish with in.  It is too small for the number of species there are with in it.  This is why the
+best model opts to disregard these categories.
 
 ## Use and Install
 
